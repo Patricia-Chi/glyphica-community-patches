@@ -1,0 +1,11 @@
+# Never publish game packages, backups, saves or local validation artifacts.
+*.spk*
+.glyphica-community-patches/
+sha256.json
+test-results.txt
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
